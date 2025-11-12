@@ -1,0 +1,6 @@
+region         = "ap-south-1"
+ami_id = "ami-0305d3d91b9f22e84"
+instance_type  = "t3.micro"
+instance_name  = "Terraform-EC2-MySQL"
+sg_name        = "allow-ssh-mysql"
+key_name       = "terraform-generated-key"
